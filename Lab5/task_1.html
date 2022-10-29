@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="ІА-02, Собковська Каріна, Основи Front-end технологій">
+  <meta name="description" content="Лабораторна робота №3 з Основ Front-end технологій, виконала студентка групи ІА-02 Собковська Каріна">
+  <title> Task_1 Собковська К.С.,ІА-02,ЛР-5,Варіант-5</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="back.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?amily=Space+Mono&family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body>
+<form class="form">
+  <div>
+    <label for="surname-and-initials">Прізвище І.Б.</label>
+    <input type="text" name="surname-and-initials" id="surname-and-initials">
+    <div class="validation-text d-none">Формат для введення даних: TTTTTT T.T.</div>
+  </div>
+  <div>
+    <label for="faculty">Факультет</label>
+    <input type="text" name="faculty" id="faculty">
+    <div class="validation-text d-none">Формат введення даних: ТТТТ</div>
+  </div>
+  <div>
+    <label for="date-of-birth">Дата народження</label>
+    <input type="text" name="date-of-birth" id="date-of-birth">
+    <div class="validation-text d-none">Формат для введення даних: ЧЧ.ЧЧ.ЧЧЧЧ</div>
+  </div>
+  <div>
+    <label for="address">Адреса</label>
+    <input type="text" name="address" id="address">
+    <div class="validation-text d-none">Формат введення даних: м.ЧЧЧЧЧЧ</div>
+  </div>
+  <div>
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email">
+    <div class="validation-text d-none">Формат введення даних: TTTTTTT@TTTT.com</div>
+  </div>
+
+  <button type="submit">SUBMIT</button>
+</form>
+<section id="result" class="d-none">
+  <h2>Ваші дані:</h2>
+  <div>
+    <span>Прізвище та ініціали:</span>
+    <span id="surname-and-initials-result"></span>
+  </div>
+  <div>
+    <span>Факультет:</span>
+    <span id="faculty-result"></span>
+  </div>
+  <div>
+    <span>Дата народження:</span>
+    <span id="date-of-birth-result"></span>
+  </div>
+  <div>
+    <span>Адреса:</span>
+    <span id="address-result"></span>
+  </div>
+  <div>
+    <span>Email:</span>
+    <span id="email-result"></span>
+  </div>
+</section>
+<script src="task1.js"></script>
+</body>
+</html>
