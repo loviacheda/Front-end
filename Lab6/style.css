@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    color:#4A8DF7 ;
+}
+
+.download-info {
+    font-family: 'Silkscreen', cursive;
+    font-size: 1.1rem;
+    color: #4AF79F;
+    padding: 0.5rem 5rem;
+    margin: 1rem auto 0;
+    display: block;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background: #D43FA0;
+}
+
+.download-info:hover {
+    cursor: pointer;
+    background: wheat;
+}
+
+.download-info:disabled {
+    cursor: auto;
+    opacity: .8;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.infoCard {
+    width: 350px;
+    margin: 1rem;
+    background-color: #77EBB2;
+    border-radius: 20px;
+    min-height: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card-entry {
+    margin: 0.3rem 0;
+}
