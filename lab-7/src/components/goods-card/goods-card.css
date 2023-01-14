@@ -1,0 +1,17 @@
+.good {
+    width: 17%;
+    background-color: #acacac;
+    margin: 1em;
+}
+
+.good img {
+    width: 100%;
+}
+
+.good p {
+    margin: 0 0 1em 0;
+}
+
+.good .text-wrap {
+    padding: 1em;
+}
